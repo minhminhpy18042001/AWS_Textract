@@ -1,0 +1,94 @@
+.content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("https://utex.hcmute.edu.vn/pluginfile.php/1/theme_maker/loginbgimage/1634220818/57f4e15cb6bc4be212ad.jpg");
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 14px #03030342;
+    border-radius: 30px;
+    max-height: 75vh;
+    margin-left: 180px;
+    margin-top: -190px;
+    width: 75%;
+}
+
+.main__menu {
+    width: 60%;
+}
+
+.main__menu--tool {
+    margin-right: -2%;
+    background-color: #e4e3e236;
+    border-radius: 0px 30px 30px 0px;
+    height: 100%;
+    padding: 25px 63px 25px 63px;
+}
+
+.main__menu--tool-heading,
+.main__menu--tool-heading-h2,
+.main__menu--tool-heading-h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #373941;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.main__menu--tool-heading-h2 {
+    font-size: 20px;
+    margin-top: -100px;
+}
+
+.main__menu--tool-heading-h3 {
+    font-size: 20px;
+    margin-top: -160px;
+}
+
+.main__menu--tool-form {
+    margin-top: -210px;
+    margin-left: 0px;
+}
+
+.text {
+    margin-top: -250px;
+}
+
+.submit-button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(159, 250, 159);
+}
+
+.submit-button:hover {
+    background-color: rgb(54, 243, 54);
+}
+.download-excel {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(176, 177, 176);
+    height: 25px;
+}
+
+.download-excel:hover {
+    background-color: rgb(54, 243, 54);
+}
+
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
+    width:100%;
+}
+
+table td {
+    border: 1px solid green;
+}
+
+table td.shrink {
+    white-space:nowrap
+}
+table td.expand {
+    width: 99%
+}
